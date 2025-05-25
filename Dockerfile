@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/devops-app.jar  /usr/app/
+COPY target/dockerproject1.jar  /usr/app/
 
 WORKDIR /usr/app/
 
