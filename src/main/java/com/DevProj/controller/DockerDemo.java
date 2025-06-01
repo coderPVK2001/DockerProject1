@@ -13,7 +13,7 @@ public class DockerDemo {
     @GetMapping("/getpvk")
     public ResponseEntity getMessasge(){
 
-        return new ResponseEntity("Hello WELCOME TO DOCKER PROJECT!!",HttpStatus.OK);
+        return new ResponseEntity("Hello WELCOME TO DOCKER PROJECT AND JENKINS ALSO!!",HttpStatus.OK);
 
     }
 }
