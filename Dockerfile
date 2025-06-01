@@ -6,4 +6,4 @@ WORKDIR /usr/app/
 
 EXPOSE 8090
 
-ENTRYPOINT ["java", "-jar", "devops-app.jar"]
+ENTRYPOINT ["java", "-jar", "dockerproject1.jar"]
